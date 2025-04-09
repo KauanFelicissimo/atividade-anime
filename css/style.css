@@ -5,12 +5,12 @@
 
 
 body {
-    background-color: #000;
+    background-image: url(../image/fundo.png);
     
 }
 
 .título {
-    color: #369;
+    color: rgb(58, 118, 177);
     font-size: 2.5em;
     text-align: center;
     margin: 10;
@@ -19,7 +19,7 @@ body {
 }
 
 .subtitulo {
-    color: #369;
+    color: rgb(58, 118, 177);
     font-size: 1.5em;
     text-align: center;
     font-family: permanet marker;
@@ -27,14 +27,14 @@ body {
 }
 
 .sinopse {
-    color: #369;
+    color: rgb(58, 118, 177);
     text-align: center;
     max-width: 30%;
     font-size: 1em;
     font-family: roboto;
     padding: 2.5%;
     border-color: #369;
-    border: solid 2px;
+    border: solid 3px;
     border-style: dashed;
     
     
@@ -42,11 +42,11 @@ body {
 }
 
 .info {
-    color: #369;
+    color: rgb(58, 118, 177);
     text-align: center;
     padding: 2.5%;
     border-color: #369;
-    border: solid 2px;
+    border: solid 1.5px;
     border-style: dashed;
     max-width: 9%;
    
@@ -64,4 +64,39 @@ body {
     background-position-x: 50%;
     background-position-y: 10%;
     height: 20vh;
+}
+
+.trama {
+    color: rgb(58, 118, 177);
+    text-align: center;
+    font-size: 1.25em;
+    font-family: roboto;
+    padding: 2.5%;
+    border-color: #369;
+    border: solid 4px;
+    border-style: dashed;
+    max-width: 30%;
+}
+
+.link {
+    color: rgb(58, 118, 177);
+    text-align: center;
+    font-size: 1.25em;
+    font-family: roboto, cursive;
+    background-image: url(../image/gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 40%;
+    height: 500px;
+
+}
+
+#crunch {
+    color: orange;
+}
+
+.rodape {
+    color: rgb(58, 118, 177);
+    text-align: center;
+    padding-top: 2.5%;
 }
